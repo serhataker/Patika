@@ -10,11 +10,11 @@ namespace trynew
 		{
 
 
-         Console.WriteLine("Adınızı griiniz:");
-			string Name=Console.ReadLine();
-            Console.WriteLine("Burda Olma nedenininiz beliritn lütfen:");
-			string Neden= Console.ReadLine();
-			Console.WriteLine("Merhaba " +Name+ " Hoşgeldiniz "+"\nKişinin Nedeni:"+ Neden);
+         Console.WriteLine("Adınızı griiniz:");//kullanıcı Ad bilgilerini alıt
+			string Name=Console.ReadLine();//Adı değişkene okuturur.
+            Console.WriteLine("Burda olma nedenininiz beliritn lütfen:");//Kullanıcı neden bilgisni alır
+			string Neden= Console.ReadLine();// Girilen nedeni değişkene aktarır.
+			Console.WriteLine("Merhaba " +Name+ " Hoşgeldiniz "+"\nKişinin Nedeni:"+ Neden);// Giriln değerlerle kullancıya dönüş sağlar.
         }
 }
 	}
