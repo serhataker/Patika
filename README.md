@@ -1,2 +1,2 @@
-# Patika-
+# Patika
 Patika Çalışmaları
